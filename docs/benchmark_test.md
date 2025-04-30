@@ -1,7 +1,7 @@
 
 # Testing on Standard Benchmarks
 
-This document describes how to run MASA for the standard benchmarks testing.
+This document describes how to run MASA for the standard benchmarks testing. Our model and data can be found here: [MASA](https://huggingface.co/dereksiyuanli/masa).
 
 
 ## Prepare Datasets
@@ -89,7 +89,7 @@ Our folder structure follows
 
 The official BDD100K annotations are in the format of [scalabel](https://doc.bdd100k.com/format.html).
 
-You can directly download the converted annotations: [mot](https://huggingface.co/dereksiyuanli/masa/resolve/main/bdd_box_track_val_cocofmt.json) and [mots](https://huggingface.co/dereksiyuanli/masa/resolve/main/bdd_seg_track_val_cocofmt.json) and put them in the `data/bdd/annotations/` folder.
+You can directly download the converted annotations: [mot](https://huggingface.co/dereksiyuanli/masa/blob/main/bdd_box_track_val_cocofmt.json) and [mots](https://huggingface.co/dereksiyuanli/masa/blob/main/bdd_seg_track_val_cocofmt.json) and put them in the `data/bdd/annotations/` folder.
 
 
 (Optional) If you want to convert the annotations by yourself, you can use bdd100k toolkit. Please install the bdd100k toolkit by following the instructions [here](https://github.com/bdd100k/bdd100k).
