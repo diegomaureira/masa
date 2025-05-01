@@ -49,7 +49,7 @@ It will be easier if you create the same folder structure.
 
 
 ### Download BDD100K
-We present an example based on [BDD100K](https://www.vis.xyz/bdd100k/) dataset. Please first download the images and annotations from the [official website](https://doc.bdd100k.com/download.html). 
+We present an example based on [BDD100K]( https://dl.cv.ethz.ch/bdd100k/data/) dataset. Please first download the images and annotations from the [official website](https://dl.cv.ethz.ch/bdd100k/data/). 
 
 On the download page, the required data and annotations are
 
@@ -61,7 +61,7 @@ On the download page, the required data and annotations are
 #### Symlink the data
 
 It is recommended to symlink the dataset root to `$MASA/data`.
-The official BDD100K annotations are in the format of [scalabel](https://doc.bdd100k.com/format.html). Please put the scalabel annotations file udner the `scalabel_gt` folder.
+The official BDD100K annotations are in the format of [scalabel](https://github.com/scalabel/scalabel/blob/master/doc/src/format.rst). Please put the scalabel annotations file udner the `scalabel_gt` folder.
 Our folder structure follows
 
 ```
@@ -87,7 +87,7 @@ Our folder structure follows
 
 #### Convert annotations to COCO style
 
-The official BDD100K annotations are in the format of [scalabel](https://doc.bdd100k.com/format.html).
+The official BDD100K annotations are in the format of [scalabel](https://github.com/scalabel/scalabel/blob/master/doc/src/format.rst).
 
 You can directly download the converted annotations: [mot](https://huggingface.co/dereksiyuanli/masa/blob/main/bdd_box_track_val_cocofmt.json) and [mots](https://huggingface.co/dereksiyuanli/masa/blob/main/bdd_seg_track_val_cocofmt.json) and put them in the `data/bdd/annotations/` folder.
 
